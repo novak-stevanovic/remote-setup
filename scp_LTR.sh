@@ -1,4 +1,7 @@
 source global_vars.sh
+source extr_info.sh
+
+extract_info
 
 echo "Enter source path(LOCAL)"
 read local_path

@@ -1,5 +1,9 @@
 source global_vars.sh
 
+source extr_info.sh
+
+extract_info
+
 echo "Enter source path(REMOTE)"
 read local_path
 echo "Enter destination path(LOCAL)"

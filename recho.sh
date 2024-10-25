@@ -1,5 +1,8 @@
 source global_vars.sh
 source misc.sh
+source extr_info.sh
+
+extract_info
 
 if [[ $(is_installed "xsel") -eq 0 ]]; then
     "Xsel not installed. Exiting."
